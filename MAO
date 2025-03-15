@@ -18,7 +18,7 @@ def initialization(search_agents_no, dim, ub, lb):
     return positions
 
 
-def MAO_2017(pop_size, tmax, ub, lb, dim, f):
+def MAO(pop_size, tmax, ub, lb, dim, f):
     conv_curve = np.zeros(tmax)
 
     # Controlling parameters
